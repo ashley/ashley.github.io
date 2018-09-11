@@ -1,0 +1,25 @@
+#text-container{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 90%;
+    width: 55%;
+    margin: 2% auto;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+h3{
+    font-size: 150%;
+    margin: 0%;
+}
+
+img{
+	height: 100px;
+	width: auto;
+	position: right;
+}
