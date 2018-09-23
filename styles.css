@@ -50,3 +50,7 @@
 .column.header table tr td a:hover {
 	color: #b4ba43;
 }
+
+#animation {
+	position: relative;
+}
