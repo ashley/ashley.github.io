@@ -1,0 +1,187 @@
+#container {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5vw;
+}
+
+.doodle {
+    position: absolute;
+    text-align: center;
+}
+
+.first, .second {
+    font-size: 1.5vw;
+}
+
+#banana {
+    width: 20vw;
+    height: 25vw;
+    background: url(../public/banana.svg) no-repeat;
+    top: 24vw;
+    left: 4vw;
+}
+
+#banana:hover #banana-text span{
+    display: block;
+}
+
+#banana-text .first, #banana-text .second{
+    display: none;
+}
+
+#banana-text .first {
+    margin-top: 48%;
+    margin-left: -50%;
+    transform: rotate(-48deg);
+}
+
+#banana-text .second {
+    margin-top: -37%;
+    margin-left: -23%;
+    transform: rotate(-75deg);
+}
+
+#dig {
+    height: 14vw;
+    width: 58%;
+    background: url(../public/dig.svg) no-repeat;
+    background-size: cover;
+    bottom: -15px;
+    right: -15px;
+}
+
+#park {
+    height: 19vw;
+    top: 24vw;
+    left: 17vw;
+    width: 25vw;
+    background: url(../public/park.svg) no-repeat;
+}
+
+#park:hover span {
+    display: inline-block;
+}
+
+#park span {
+    display: none;
+}
+
+#park .first {
+    width: 35%;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#park .second {
+    width: 28%;
+    margin-left: 33%;
+    margin-top: -20%;;
+}
+
+#name {
+    height: 13vw;
+    width: 40%;
+    top: 3%;
+    left: 45%;
+    transform: translate(-37%, 0);
+    background: url(../public/name.svg) no-repeat;
+}
+
+#taxi {
+    height: 9vw;
+    top: 10vw;
+    left: 6vw;
+    width: 15vw;
+    background: url(../public/taxi.svg) no-repeat;
+}
+
+#taxi:hover p{
+    display: block;
+}
+
+#taxi p{
+    display: none;
+    position: relative;
+    margin-top: -32%;
+    margin-left: -1%;
+}
+
+#full-stack{
+    height: 8vw;
+    top: 13vw;
+    left: 23vw;
+    width: 10vw;
+    background: url(../public/full_stack.svg) no-repeat;
+}
+
+#full-stack:hover p{
+    display: block;
+}
+
+#full-stack p{
+    display: none;
+    margin-top: -25%;
+}
+
+#dog {
+    height: 10vw;
+    top: 12vw;
+    left: 39vw;
+    width: 100%;
+    background: url(../public/dog.svg) no-repeat;
+}
+
+#tv {
+    height: 7vw;
+    bottom: 17vw;
+    right: -47vw;
+    width: 100%;
+    background: url(../public/tv.svg) no-repeat;
+}
+
+#me {
+    height: 6vw;
+    bottom: 10vw;
+    right: -55vw;
+    width: 100%;
+    background: url(../public/me.svg) no-repeat;
+}
+
+#coffee {
+    height: 6vw;
+    top: 18vw;
+    right: -55vw;
+    width: 100%;
+    background: url(../public/coffee.svg) no-repeat;
+}
+
+#robot {
+    height: 10vw;
+    bottom: 16vw;
+    right: -68vw;
+    width: 100%;
+    background: url(../public/robot.svg) no-repeat;
+}
+
+#wrench {
+    height: 10vw;
+    top: 12vw;
+    right: -79vw;
+    width: 100%;
+    background: url(../public/wrench.svg) no-repeat;
+}
+
+#bird {
+    height: 9vw;
+    bottom: 20vw;
+    right: -93vw;
+    width: 100%;
+    background: url(../public/bird.svg) no-repeat;
+}
+
+#food {
+    height: 4vw;
+    bottom: 17vw;
+    right: -81vw;
+    width: 100%;
+    background: url(../public/food.svg) no-repeat;
+}
