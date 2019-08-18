@@ -30,7 +30,7 @@ a {
 #banana {
     width: 20vw;
     height: 25vw;
-    background: url(../public/banana.svg) no-repeat;
+    background: url(public/banana.svg) no-repeat;
     top: 24vw;
     left: 4vw;
 }
@@ -66,7 +66,7 @@ a {
 #dig {
     height: 15vw;
     width: 59%;
-    background: url(../public/dig.svg) no-repeat;
+    background: url(public/dig.svg) no-repeat;
     top: 33vw;
     right: -15px;
 }
@@ -97,7 +97,7 @@ a {
     top: 24vw;
     left: 18vw;
     width: 25vw;
-    background: url(../public/park.svg) no-repeat;
+    background: url(public/park.svg) no-repeat;
 }
 
 #park:hover span {
@@ -126,7 +126,7 @@ a {
     top: 3%;
     left: 45%;
     transform: translate(-37%, 0);
-    background: url(../public/name.svg) no-repeat;
+    background: url(public/name.svg) no-repeat;
 }
 
 #taxi {
@@ -134,7 +134,7 @@ a {
     top: 10vw;
     left: 6vw;
     width: 15vw;
-    background: url(../public/taxi.svg) no-repeat;
+    background: url(public/taxi.svg) no-repeat;
 }
 
 #taxi:hover p{
@@ -152,7 +152,7 @@ a {
     top: 13vw;
     left: 23vw;
     width: 10vw;
-    background: url(../public/full_stack.svg) no-repeat;
+    background: url(public/full_stack.svg) no-repeat;
 }
 
 #full-stack:hover p{
@@ -169,7 +169,7 @@ a {
     top: 12vw;
     left: 39vw;
     width: 11vw;
-    background: url(../public/dog.svg) no-repeat;
+    background: url(public/dog.svg) no-repeat;
 }
 
 #dog:hover p{
@@ -189,7 +189,7 @@ a {
     top: 24vw;
     right: 48vw;
     width: 8vw;
-    background: url(../public/tv.svg) no-repeat;
+    background: url(public/tv.svg) no-repeat;
 }
 
 #tv:hover p {
@@ -208,7 +208,7 @@ a {
     top: 28vw;
     right: 40vw;
     width: 5vw;
-    background: url(../public/me.svg) no-repeat;
+    background: url(public/me.svg) no-repeat;
 }
 
 #me:hover div{
@@ -236,7 +236,7 @@ a {
     top: 18vw;
     right: 35vw;
     width: 10vw;
-    background: url(../public/coffee.svg) no-repeat;
+    background: url(public/coffee.svg) no-repeat;
 }
 
 #coffee:hover p {
@@ -256,7 +256,7 @@ a {
     top: 22vw;
     right: 22vw;
     width: 10vw;
-    background: url(../public/robot.svg) no-repeat;
+    background: url(public/robot.svg) no-repeat;
 }
 
 #robot:hover p {
@@ -274,7 +274,7 @@ a {
     top: 12vw;
     right: 13vw;
     width: 10vw;
-    background: url(../public/wrench.svg) no-repeat;
+    background: url(public/wrench.svg) no-repeat;
 }
 
 #wrench:hover p{
@@ -294,7 +294,7 @@ a {
     top: 17vw;
     right: 7vw;
     width: 4vw;;
-    background: url(../public/bird.svg) no-repeat;
+    background: url(public/bird.svg) no-repeat;
 }
 
 #bird:hover p{
@@ -314,7 +314,7 @@ a {
     top: 26vw;
     right: 11vw;
     width: 9vw;
-    background: url(../public/food.svg) no-repeat;
+    background: url(public/food.svg) no-repeat;
 }
 
 #food:hover p {
