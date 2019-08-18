@@ -1,6 +1,16 @@
+body {
+    background-color: #fffcbf;
+}
+
 #container {
     font-family: 'Caveat', cursive;
     font-size: 1.5vw;
+    transition: .3s ease-in;
+}
+
+#container:hover .doodle:not(:hover){
+    opacity: 0.35;
+    transition: 0.3s;
 }
 
 a {
@@ -45,11 +55,19 @@ a {
     transform: rotate(-75deg);
 }
 
+#dig-background {
+    background-color: #875B36;
+    width: 57.8vw;
+    height: 100%;
+    top: 47.3vw;
+    right: 0;
+}
+
 #dig {
     height: 15vw;
     width: 59%;
     background: url(../public/dig.svg) no-repeat;
-    bottom: -15px;
+    top: 33vw;
     right: -15px;
 }
 
@@ -168,7 +186,7 @@ a {
 
 #tv {
     height: 7vw;
-    bottom: 17vw;
+    top: 24vw;
     right: 48vw;
     width: 8vw;
     background: url(../public/tv.svg) no-repeat;
@@ -187,7 +205,7 @@ a {
 
 #me {
     height: 6vw;
-    bottom: 11vw;
+    top: 28vw;
     right: 40vw;
     width: 5vw;
     background: url(../public/me.svg) no-repeat;
@@ -235,7 +253,7 @@ a {
 
 #robot {
     height: 10vw;
-    bottom: 16vw;
+    top: 22vw;
     right: 22vw;
     width: 10vw;
     background: url(../public/robot.svg) no-repeat;
@@ -273,7 +291,7 @@ a {
 
 #bird {
     height: 9vw;
-    bottom: 20vw;
+    top: 17vw;
     right: 7vw;
     width: 4vw;;
     background: url(../public/bird.svg) no-repeat;
@@ -293,7 +311,7 @@ a {
 
 #food {
     height: 4vw;
-    bottom: 17vw;
+    top: 26vw;
     right: 11vw;
     width: 9vw;
     background: url(../public/food.svg) no-repeat;
@@ -308,3 +326,11 @@ a {
     margin-top: 42%;
     margin-left: -5%;
 }
+
+.transparent {
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
