@@ -1,10 +1,10 @@
 body {
     background-color: #fffcbf;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5vw;
 }
 
 #container {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5vw;
     transition: .3s ease-in;
 }
 
@@ -55,7 +55,7 @@ a {
     transform: rotate(-75deg);
 }
 
-#dig-background {
+#dig #dig-background {
     background-color: #875B36;
     width: 57.8vw;
     height: 100%;
